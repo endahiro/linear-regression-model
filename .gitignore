@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Flutter
+summative/FlutterApp/**/build/
+summative/FlutterApp/.dart_tool/
+summative/FlutterApp/.flutter-plugins
+summative/FlutterApp/.flutter-plugins-dependencies
+summative/FlutterApp/.idea/
+summative/FlutterApp/**/local.properties
