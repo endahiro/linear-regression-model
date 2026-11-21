@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
 // Public Render URL of the API (POST /predict).
-const String apiUrl = 'https://rwanda-food-price-api.onrender.com/predict';
+const String apiUrl = 'https://rwanda-food-price-api-6r6r.onrender.com/predict';
 
 void main() => runApp(const FoodPriceApp());
 

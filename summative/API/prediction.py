@@ -25,7 +25,7 @@ app = FastAPI(
 # file-upload request needs. Credentials are disabled because the API uses no cookies or auth sessions.
 # The Flutter mobile app is not a browser, so CORS does not apply to it.
 ALLOWED_ORIGINS = [
-    "https://rwanda-food-price-api.onrender.com",
+    "https://rwanda-food-price-api-6r6r.onrender.com",
     "http://localhost:8000",
     "http://127.0.0.1:8000",
     "http://localhost:8080",

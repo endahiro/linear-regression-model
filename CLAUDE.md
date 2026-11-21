@@ -25,7 +25,7 @@ commodity, category, market, admin2 (district), admin1 (province),
 latitude, longitude, year, month.  Target: price (RWF/KG).
 
 ## Layout is graded literally — do not reorganize
-linear_regression_model/
+linear-regression-model/
   README.md
   summative/
     pyproject.toml, uv.lock
@@ -33,6 +33,9 @@ linear_regression_model/
     API/  prediction.py, retrain.py, pyproject.toml, uv.lock,
           requirements.txt, best_model.pkl  (Render root dir)
     FlutterApp/
+
+Repo: https://github.com/endahiro/linear-regression-model
+API:  https://rwanda-food-price-api-6r6r.onrender.com/docs
 
 ## Conventions
 - uv for deps. Two separate envs: summative/ and summative/API/.

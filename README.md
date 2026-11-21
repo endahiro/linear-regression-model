@@ -12,7 +12,7 @@ and 65 commodities, with province, district, market coordinates, commodity categ
 After keeping retail prices per KG: 137,790 rows, 9 features (5 categorical, 4 numeric).
 
 ## API (Swagger UI)
-https://rwanda-food-price-api.onrender.com/docs
+https://rwanda-food-price-api-6r6r.onrender.com/docs
 
 The free Render service sleeps after 15 minutes of inactivity; the first request can take up to a minute.
 
@@ -35,11 +35,11 @@ YouTube: <!-- TODO: paste YouTube link -->
 5. Start the emulator, then run: `flutter run`
 6. Fill in the 9 fields (example: Beans (dry), pulses and nuts, Munini, Kirehe, Eastern Province, -2.31, 30.82, 2025, 6)
    and press **Predict**. Valid names for the text fields are listed at
-   https://rwanda-food-price-api.onrender.com/options
+   https://rwanda-food-price-api-6r6r.onrender.com/options
 
 ## Repository layout
 ```
-linear_regression_model/
+linear-regression-model/
 ├── README.md
 └── summative/
     ├── pyproject.toml, uv.lock          # notebook environment (uv)
