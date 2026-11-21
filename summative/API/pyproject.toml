@@ -1,0 +1,16 @@
+[project]
+name = "food-price-api"
+version = "0.1.0"
+description = "FastAPI service predicting retail food prices (RWF/KG) in Rwandan markets"
+requires-python = ">=3.10,<3.11"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "pydantic>=2.7",
+    "python-multipart>=0.0.9",
+    "pandas==2.3.3",
+    "numpy==2.2.6",
+    "scipy==1.15.3",
+    "scikit-learn==1.7.2",
+    "joblib==1.6.0",
+]
