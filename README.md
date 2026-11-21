@@ -27,13 +27,9 @@ YouTube: <!-- TODO: paste YouTube link -->
    git clone https://github.com/endahiro/linear-regression-model.git
    cd linear-regression-model/summative/FlutterApp
    ```
-3. Generate the platform folders (only the first time; existing files such as `lib/main.dart` are kept):
-   ```bash
-   flutter create --project-name food_price_app --platforms android,ios .
-   ```
-4. Install dependencies: `flutter pub get`
-5. Start the emulator, then run: `flutter run`
-6. Fill in the 9 fields (example: Beans (dry), pulses and nuts, Munini, Kirehe, Eastern Province, -2.31, 30.82, 2025, 6)
+3. Install dependencies: `flutter pub get`
+4. Start the emulator, then run: `flutter run`
+5. Fill in the 9 fields (example: Beans (dry), pulses and nuts, Munini, Kirehe, Eastern Province, -2.31, 30.82, 2025, 6)
    and press **Predict**. Valid names for the text fields are listed at
    https://rwanda-food-price-api-6r6r.onrender.com/options
 
