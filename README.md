@@ -24,8 +24,8 @@ YouTube: <!-- TODO: paste YouTube link -->
    (Android Studio > Device Manager), or connect an Android phone with USB debugging on.
 2. Clone the repository and open the app folder:
    ```bash
-   git clone https://github.com/<your-username>/linear_regression_model.git
-   cd linear_regression_model/summative/FlutterApp
+   git clone https://github.com/endahiro/linear-regression-model.git
+   cd linear-regression-model/summative/FlutterApp
    ```
 3. Generate the platform folders (only the first time; existing files such as `lib/main.dart` are kept):
    ```bash
