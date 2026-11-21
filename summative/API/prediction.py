@@ -6,6 +6,7 @@ Swagger UI:   http://127.0.0.1:8000/docs
 import pandas as pd
 from fastapi import FastAPI, File, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import RedirectResponse
 from pydantic import BaseModel, ConfigDict, Field, field_validator
 
 import retrain as rt
@@ -92,9 +93,10 @@ def predict_price(row: pd.DataFrame) -> float:
     return float(model.predict(row[rt.FEATURES])[0])
 
 
-@app.get("/")
+@app.get("/", include_in_schema=False)
 def root():
-    return {"message": "Rwanda Food Price API. Open /docs for the Swagger UI."}
+    """Opening the bare service URL goes straight to the Swagger UI."""
+    return RedirectResponse(url="/docs")
 
 
 @app.get("/options")
