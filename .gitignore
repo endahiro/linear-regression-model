@@ -11,3 +11,6 @@ summative/FlutterApp/.flutter-plugins
 summative/FlutterApp/.flutter-plugins-dependencies
 summative/FlutterApp/.idea/
 summative/FlutterApp/**/local.properties
+
+# Local assistant notes
+CLAUDE.md
