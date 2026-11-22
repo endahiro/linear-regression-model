@@ -1,17 +1,14 @@
-# food_price_app
+# Rwanda Food Price Predictor (Flutter app)
 
-A new Flutter project.
+One-page app that sends the 9 model inputs (commodity, category, market, district, province,
+latitude, longitude, year, month) to the
+[Rwanda Food Price API](https://rwanda-food-price-api-6r6r.onrender.com/docs) and shows the predicted
+retail price in RWF per KG, or an error message if a value is missing or out of range.
 
-## Getting Started
+```bash
+flutter pub get
+flutter run        # with an Android emulator running or a phone connected
+flutter test       # widget test
+```
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+See the [main README](../../README.md) for full setup steps and an example input.
