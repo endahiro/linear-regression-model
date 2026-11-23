@@ -17,7 +17,7 @@ https://rwanda-food-price-api-6r6r.onrender.com/docs
 The free Render service sleeps after 15 minutes of inactivity; the first request can take up to a minute.
 
 ## Video demo
-YouTube: <!-- TODO: paste YouTube link -->
+YouTube: https://youtu.be/ileiEJTyDIc
 
 ## Run the mobile app
 1. Install [Flutter](https://docs.flutter.dev/get-started/install) and Android Studio, and create an Android emulator
